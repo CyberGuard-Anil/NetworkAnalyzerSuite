@@ -1,0 +1,39 @@
+# ================================
+# NetworkAnalyzerSuite Requirements
+# ================================
+
+# Core Networking & Packet Manipulation
+scapy>=2.4.5
+
+# Network Graph Creation and Analysis
+networkx>=2.8.8
+
+# Data Visualization and Plotting
+matplotlib>=3.5.0
+
+# IP Address and Interface Handling
+netifaces>=0.11.0
+
+# ======================
+# Optional Enhancements
+# ======================
+
+# Enhanced CLI menus (for fancy Python CLI UIs)
+# simple-term-menu>=1.5.2
+
+# Terminal color handling and cross-platform color support
+# colorama>=0.4.4
+
+# ======================
+# Development Tools Only
+# ======================
+
+# For automated testing (uncomment to use)
+# pytest>=7.0.0
+
+# For code formatting (uncomment to use)
+# black>=22.0.0
+
+# For linting & static checks (uncomment to use)
+# flake8>=4.0.0
+
