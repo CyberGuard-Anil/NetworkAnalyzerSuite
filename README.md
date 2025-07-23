@@ -319,8 +319,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@CyberGuard-Anil](https://github.com/CyberGuard-Anil)
+- Email: neatrootshack@gmail.com
 
 ## 🙏 Acknowledgments
 
