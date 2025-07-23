@@ -182,25 +182,46 @@ sniffer.start_sniffing(count=100)
 ```json
 {
   "scan_info": {
-    "timestamp": "2024-01-15T10:30:45",
-    "target_network": "192.168.1.0/24",
-    "total_devices": 5
+    "timestamp": "2025-07-23T15:02:08",
+    "target_network": "172.25.223.0/20",
+    "total_devices": 1
   },
   "devices": [
     {
-      "ip": "192.168.1.100",
-      "mac": "aa:bb:cc:dd:ee:ff",
-      "vendor": "Apple",
-      "timestamp": "2024-01-15T10:30:45"
+      "ip": "172.25.223.28",
+      "mac": "00:1A:2B:3C:4D:5E",
+      "vendor": "Intel",
+      "timestamp": "2025-07-23T15:02:08"
     }
   ]
 }
+
 ```
 
 ### Packet Sniffing Logs
-```
-2024-01-15 10:35:20 - INFO - Packet #1: TCP 192.168.1.100 -> 8.8.8.8 (66 bytes) Port: 54321 -> 443 Service: HTTPS
-2024-01-15 10:35:21 - INFO - Packet #2: UDP 192.168.1.1 -> 192.168.1.255 (342 bytes) Port: 67 -> 68 Service: DHCP
+```2025-07-23 15:02:46,908 - INFO - ==================================================
+2025-07-23 15:02:46,920 - INFO - PACKET SNIFFING STARTED
+2025-07-23 15:02:46,920 - INFO - Interface: Default
+2025-07-23 15:02:46,920 - INFO - Filter: None
+2025-07-23 15:02:46,920 - INFO - Count: Unlimited
+2025-07-23 15:02:46,920 - INFO - Timeout: None
+2025-07-23 15:02:46,921 - INFO - ==================================================
+Started sniffing on interface: default
+Capturing packets... Press Ctrl+C to stop
+2025-07-23 15:02:48,228 - INFO - Packet #1: UDP 172.25.223.28:54965 -> 185.125.190.56:123
+2025-07-23 15:02:48,427 - INFO - Packet #2: UDP 185.125.190.56:123 -> 172.25.223.28:54965
+2025-07-23 15:02:53,223 - INFO - Packet #3: Unknown Packet (42 bytes)
+2025-07-23 15:02:53,224 - INFO - Packet #4: Unknown Packet (42 bytes)
+2025-07-23 15:02:53,307 - INFO - Packet #5: Unknown Packet (42 bytes)
+2025-07-23 15:02:53,308 - INFO - Packet #6: Unknown Packet (42 bytes)
+2025-07-23 15:02:53,550 - INFO - ==================================================
+2025-07-23 15:02:53,550 - INFO - PACKET SNIFFING STOPPED
+2025-07-23 15:02:53,550 - INFO - Total packets captured: 6
+2025-07-23 15:02:53,551 - INFO - TCP: 0 packets (0.0%)
+2025-07-23 15:02:53,551 - INFO - UDP: 2 packets (33.3%)
+2025-07-23 15:02:53,551 - INFO - ICMP: 0 packets (0.0%)
+2025-07-23 15:02:53,551 - INFO - Other: 4 packets (66.7%)
+
 ```
 
 ## 🔧 Configuration
@@ -330,7 +351,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 👤 Author
 
-**Your Name**
+**Anil Yadav**
 - GitHub: [@CyberGuard-Anil](https://github.com/CyberGuard-Anil)
 - Email: neatrootshack@gmail.com
 
