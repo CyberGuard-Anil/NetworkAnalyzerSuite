@@ -60,7 +60,7 @@ NetworkAnalyzerSuite/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/NetworkAnalyzerSuite.git
+git clone https://github.com/CyberGuard-Anil/NetworkAnalyzerSuite.git
 cd NetworkAnalyzerSuite
 ```
 
